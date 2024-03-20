@@ -5,7 +5,7 @@ application:
     replicas: 3
     message: "Tt works with Helm Values[v2]!"
     database:
-      url: "http://DB_ADDRESS_DEFAULT"
+      url: "http://DB_ADDRESS_DEFAULT "
       password: "db_password"
   nginx:
     image: nginx
